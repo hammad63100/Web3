@@ -77,6 +77,8 @@ contract.methods.x()
 //     console.log("Something went wrong: ", e);
 //   }); 
 
+
+
 // if code run its want new value 
 const prompt = require('prompt-sync')();
 const newVal = prompt("Enter the new value for x: ");
