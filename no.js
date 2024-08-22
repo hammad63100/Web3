@@ -14,7 +14,7 @@
 const { Web3 } = require('web3'); // Destructure the Web3 object from the package
 const web3 = new Web3('HTTP://127.0.0.1:7545');
 
-// Access accounts through the `eth` property
+
 web3.eth.getAccounts().then(accounts => {
     console.log(accounts); // should print 10 accounts
 }).catch(error => {

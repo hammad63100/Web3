@@ -1,5 +1,15 @@
 {
   "dependencies": {
     "web3": "^4.11.1"
-  }
+  },
+  "name": "web3-1",
+  "description": "Course",
+  "version": "1.0.0",
+  "main": "no.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
