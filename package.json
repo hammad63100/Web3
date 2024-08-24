@@ -2,7 +2,7 @@
   "dependencies": {
     "fs": "^0.0.1-security",
     "prompt-sync": "^4.2.0",
-    "solc": "^0.8.26",
+    "solc": "^0.8.0",
     "web3": "^4.12.1",
     "web3.js-browser": "^0.2.0"
   },
