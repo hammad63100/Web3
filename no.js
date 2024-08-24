@@ -16,7 +16,7 @@ web3.eth.getAccounts().then(accounts => {
 
 
 // // this code give me only one result of the account which i mention
-const account = "0x68016838419A4f4f73Dc01Ef279a2F887759C0Be";  // Your Ethereum account address
+const account = "enter acc addres to want show result";  // Your Ethereum account address
 
 web3.eth.getBalance(account)
     .then(balance => {
@@ -31,8 +31,8 @@ web3.eth.getBalance(account)
 // transfer eth from one account to another account
 
 
-const fromAccount = "0x68016838419A4f4f73Dc01Ef279a2F887759C0Be";  // Your Ethereum account address
-const toAccount = "0x8105442FccD9bb85Da7eEdca602AF04fb6d72480";  // Recipient Ethereum account address
+const fromAccount = "enter your from account address";  // Your Ethereum account address
+const toAccount = "enter your to account address";  // Recipient Ethereum account address
 const amount = web3.utils.toWei('1', 'ether');  // Amount to transfer
 
 async function sendTransaction() {
