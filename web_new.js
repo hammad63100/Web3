@@ -50,4 +50,7 @@ let defaultAccount;
 web3.eth.getAccounts().then((accounts) =>{
     console.log("Accounts:  ", accounts);
     defaultAccount=accounts[0];
+    console.log("Default Account: ", defaultAccount);
+
+    contract.deploy({data:bytecode}).send({from:defaultAccount, gas:500000});
 })
