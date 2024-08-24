@@ -45,6 +45,8 @@ console.log("bytecode: ",bytecode);
 // Deploy the contract
 const contract = new web3.eth.Contract(ABI);
 
+
+let defaultAccount;
 web3.eth.getAccounts().then((accounts) =>{
     console.log("Accounts:  ", accounts);
     defaultAccount=accounts[0];
