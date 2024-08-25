@@ -7,16 +7,6 @@ const { Web3 } = require('web3'); // Destructure the Web3 object from the packag
 const web3 = new Web3('HTTP://127.0.0.1:7545');
 
 
-// Test the connection
-// web3.eth.net.isListening()
-//   .then(() => {
-//     console.log("Connected to Ganache");
-//   })
-//   .catch((e) => {
-//     console.log("Something went wrong: ", e);
-//   });
-
-
 
 // ABI (Application Binary Interface) of your contract
 const abi = [

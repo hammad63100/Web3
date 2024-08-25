@@ -75,4 +75,6 @@ web3.eth.getAccounts().then((accounts) => {
         .catch((err) => {
             console.error("Error deploying or interacting with contract:", err);
         });
+
+        
 });
