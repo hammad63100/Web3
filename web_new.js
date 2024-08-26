@@ -4,6 +4,7 @@ const { Web3 } = require('web3');
 // Create a new instance of Web3 and connect to Ganache
 const web3 = new Web3('HTTP://127.0.0.1:8545');
 
+
 // Read the Solidity contract file
 let fileContent = fs.readFileSync("demo.sol").toString();
 console.log("Solidity code:\n", fileContent);
@@ -75,6 +76,7 @@ web3.eth.getAccounts().then((accounts) => {
         .catch((err) => {
             console.error("Error deploying or interacting with contract:", err);
         });
-
         
+
+
 });
