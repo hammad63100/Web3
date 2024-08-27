@@ -81,3 +81,5 @@ contract.methods.setVal(newVal)
   .catch((e) => {
     console.log("Something went wrong: ", e);
   });
+
+  
