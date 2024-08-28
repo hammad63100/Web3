@@ -7,3 +7,6 @@ contract demo{
         x=_x;
     }
 }
+
+
+
